@@ -607,15 +607,16 @@ ol,
     left: 16px;
 
     transform: translateY(0%);
-    fill: black;
+    /* fill: black; */
 }
 .icon-modal {
     width: 22px;
     height: 24px;
+    color: currentColor;
 }
-.icon-modal:hover {
+/* .icon-modal:hover {
     fill: var(--color-iris);
-}
+} */
 
 .name-field {
     color: var(--color-subtle-text);
@@ -632,9 +633,9 @@ ol,
 
     padding: 8px 38px;
 }
-.text-field:focus + .icon-text-modal > .icon-modal,
-.text-field:active + .icon-text-modal > .icon-modal,
-.text-field:hover + .icon-text-modal > .icon-modal {
+.text-field:focus + .icon-text-modal,
+.text-field:active + .icon-text-modal,
+.text-field:hover + .icon-text-modal {
     fill: var(--color-iris);
 }
 
