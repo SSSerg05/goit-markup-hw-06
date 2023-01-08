@@ -475,7 +475,7 @@
 
                         <div class="footer-subscribe">
                             <input 
-                                class="text text-input footer-field white" 
+                                class="text text-field footer-field white" 
                                 type="email" 
                                 name="footer-email" 
                                 id="footer-email" 
@@ -504,8 +504,8 @@
                 
                 <!-- Name -->
                 <div class="modal-field">
-                    <input class="text text-field" type="text" name="name" id="name">
                     <label class="text name-field" for="name">Name</label>
+                    <input class="text text-field" type="text" name="name" id="name">
                     <span class="text icon-text-modal">
                         <svg class="icon-modal">
                             <use href="./images/icons-2.svg#icon-person"></use>
@@ -515,8 +515,8 @@
                 
                 <!-- Phone -->
                 <div class="modal-field">
-                    <input class="text text-field" type="tel" name="phone" id="phone">
                     <label class="text name-field" for="phone">Phone</label>
+                    <input class="text text-field" type="tel" name="phone" id="phone">
                     <span class="text icon-text-modal">
                         <svg class="icon-modal">
                             <use href="./images/icons-2.svg#icon-phone"></use>
@@ -526,8 +526,8 @@
                 
                 <!-- E-mail -->
                 <div class="modal-field">
-                    <input class="text text-field" type="email" name="email" id="email">
                     <label class="text name-field" for="email">Email </label>
+                    <input class="text text-field" type="email" name="email" id="email">
                     <span class="text icon-text-modal">
                         <svg class="icon-modal">
                             <use href="./images/icons-2.svg#icon-email"></use>
@@ -536,9 +536,10 @@
                 </div>
 
                 <!-- Comment -->
-                <label class="text name-field" for="comment">Comment </label>
-                <textarea class="text text-field" name="feedback" rows="5" placeholder="Text input"></textarea>
-               
+                <div class="modal-field">
+                    <label class="text name-field" for="comment">Comment </label>
+                    <textarea class="text text-field modal-textarea" name="feedback" id="comment" rows="5" placeholder="Text input"></textarea>
+                </div>
 
                 <label class="text name-field" for="policy">
                     <input class="text" type="checkbox" name="policy" id="policy">
