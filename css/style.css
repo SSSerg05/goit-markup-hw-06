@@ -653,19 +653,37 @@ ol,
 }
 
 .footer-subscribe {
+    position: relative;
     width: 453px;
     display: flex;
     gap: 24px;
 }
 
-.footer-input {
-    display: block;
+.footer-field {
+    /* display: block; */
     border: 1px solid var(--color-subtle-text);
 
 }
+.footer-name-field {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    transform: translateY(50%);
+    color: var(--color-subtle-text);
+    background-color: var(--color-dark);
+    
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.footer-field:focus + .footer-name-field,
+.footer-field:not(:placeholder-shown) + .footer-name-field {
+    transform: translateY(-70%);
+}
+
 .btn-subscribe {
     width: 165px;
-    display: block;
+    /* display: block; */
     padding: 8px 24px;
 }
 
