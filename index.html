@@ -498,25 +498,49 @@
                     <use href="./images/icons-2.svg#icon-close"></use>
                 </svg>
             </button>
-            <h3 class="title title-item title-modal center dark">Leave your contacts and we will call you back</h3>
+            
             <form action="" method="post">
-
-                <label class="text text-modal" for="name">Name</label>
-                <input class="text text-input" type="text" name="name" id="name">
+                <h3 class="title title-item title-modal center dark">Leave your contacts and we will call you back</h3>
                 
-
-                <label class="text text-modal" for="phone">Phone</label>
-                <input class="text text-input" type="tel" name="phone" id="phone">
+                <!-- Name -->
+                <div class="modal-field">
+                    <input class="text text-field" type="text" name="name" id="name">
+                    <label class="text name-field" for="name">Name</label>
+                    <span class="text icon-text-modal">
+                        <svg class="icon-modal">
+                            <use href="./images/icons-2.svg#icon-person"></use>
+                        </svg>
+                    </span>
+                </div>
                 
+                <!-- Phone -->
+                <div class="modal-field">
+                    <input class="text text-field" type="tel" name="phone" id="phone">
+                    <label class="text name-field" for="phone">Phone</label>
+                    <span class="text icon-text-modal">
+                        <svg class="icon-modal">
+                            <use href="./images/icons-2.svg#icon-phone"></use>
+                        </svg>
+                    </span>
+                </div>
+                
+                <!-- E-mail -->
+                <div class="modal-field">
+                    <input class="text text-field" type="email" name="email" id="email">
+                    <label class="text name-field" for="email">Email </label>
+                    <span class="text icon-text-modal">
+                        <svg class="icon-modal">
+                            <use href="./images/icons-2.svg#icon-email"></use>
+                        </svg>
+                    </span>
+                </div>
 
-                <label class="text text-modal" for="email">Email </label>
-                <input class="text text-input" type="email" name="email" id="email">
-               
-                <label class="text text-modal" for="comment">Comment </label>
-                <textarea class="text text-input" name="feedback" rows="5" placeholder="Text input"></textarea>
+                <!-- Comment -->
+                <label class="text name-field" for="comment">Comment </label>
+                <textarea class="text text-field" name="feedback" rows="5" placeholder="Text input"></textarea>
                
 
-                <label class="text text-modal" for="policy">
+                <label class="text name-field" for="policy">
                     <input class="text" type="checkbox" name="policy" id="policy">
                     I accept the terms and conditions of the <a>Privacy Policy</a>
                 </label>
