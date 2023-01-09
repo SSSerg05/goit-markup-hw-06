@@ -541,10 +541,22 @@
                     <textarea class="text text-field modal-textarea" name="feedback" id="comment" rows="5" placeholder="Text input"></textarea>
                 </div>
 
-                <div class="modal-field">
-                    <label class="text name-field" for="policy">
-                        <input class="text" type="checkbox" name="policy" id="policy">
-                        I accept the terms and conditions of the <a>Privacy Policy</a>
+                <!-- checkbox -->
+                <div class="text modal-field">
+                    <label class="text name-field text-checkbox">
+                        <input class="text checkbox" type="checkbox" name="policy">
+                        I accept the terms and conditions of the 
+                        <a href="" 
+                            class="policy-text" 
+                            target="_blank">
+                            Privacy Policy
+                        </a>
+
+                        <span class="text-checkbox-icon">
+                            <svg class="checkbox-icon">
+                                <use href="./images/icons-2.svg#icon-click-off"></use>
+                            </svg>
+                        </span>    
                     </label>
                 </div>
 
