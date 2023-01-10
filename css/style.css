@@ -654,6 +654,7 @@ ol,
     padding-left: 16px;
 }
 
+/* user checkbox */
 .text-checkbox {
     display: inline-block;
     padding-left: 38px;;
@@ -661,9 +662,7 @@ ol,
 .checkbox {
     appearance: none;
 }
-.text-checkbox-icon {
 
-}
 .checkbox-icon { 
     display: inline-block;
     position: absolute;
@@ -758,9 +757,19 @@ ol,
 }
 
 .btn-subscribe {
-    width: 165px;
+    display: inline-flex;
+    min-width: 165px;
     /* display: block; */
     padding: 8px 24px;
+}
+
+.icon-subscribe {
+    display: inline-block;
+    margin-left: 16px;
+    width: 24px;
+    height: 24px;
+    /* background-color: tomato; */
+    fill: white;
 }
 
 .link-footer-social {
