@@ -766,6 +766,7 @@ ol,
     display: inline-flex;
     min-width: 165px;
     padding: 8px 24px;
+    align-items: center;
 }
 
 .icon-subscribe {
