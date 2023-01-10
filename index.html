@@ -476,13 +476,13 @@
 
                             <div class="footer-subscribe">
                                 <input 
-                                    class="text text-field footer-field white" 
+                                    class="sm-text text-field footer-field white" 
                                     type="email" 
                                     name="footer-email" 
                                     id="footer-email" 
                                     placeholder=" ">
-                                <label class="footer-name-field" for="footer-email">E-mail</label>
-
+                                <label class="sm-text footer-name-field" for="footer-email">E-mail</label>
+                            
                                 <button class="btn btn-subscribe white" type="submit">
                                     Subscribe
                                     <span class="icon-subscribe">
@@ -491,6 +491,7 @@
                                         </svg>
                                     </span>
                                 </button>
+                                
                             </div>
                         </form>
                     </div>
@@ -510,56 +511,64 @@
             </button>
             
             <form action="" method="post">
-                <h3 class="title title-item title-modal center dark">Leave your contacts and we will call you back</h3>
+                <h3 class="title title-modal center dark">Leave your contacts and we will call you back</h3>
                 
                 <!-- Name -->
                 <div class="modal-field">
-                    <label class="text name-field" for="name">Name</label>
-                    <input class="text text-field" type="text" name="name" id="name">
-                    <span class="text icon-text-modal">
-                        <svg class="icon-modal">
-                            <use href="./images/icons-2.svg#icon-person"></use>
-                        </svg>
-                    </span>
+                    <label class="sm-text name-field">Name
+                        <div class="modal-input">
+                            <input class="sm-text text-field" type="text" name="name" id="name">
+                            <span class="icon-text-modal">
+                                <svg class="icon-modal" width="22" height="24">
+                                    <use href="./images/icons-2.svg#icon-person"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </label>
                 </div>
                 
                 <!-- Phone -->
                 <div class="modal-field">
-                    <label class="text name-field" for="phone">Phone</label>
-                    <input class="text text-field" type="tel" name="phone" id="phone">
-                    <span class="text icon-text-modal">
-                        <svg class="icon-modal">
-                            <use href="./images/icons-2.svg#icon-phone"></use>
-                        </svg>
-                    </span>
+                    <label class="sm-text name-field">Phone
+                        <div class="modal-input">
+                            <input class="sm-text text-field" type="tel" name="phone">
+                            <span class="icon-text-modal">
+                                <svg class="icon-modal" width="22" height="24">
+                                    <use href="./images/icons-2.svg#icon-phone"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </label>
                 </div>
                 
                 <!-- E-mail -->
                 <div class="modal-field">
-                    <label class="text name-field" for="email">Email </label>
-                    <input class="text text-field" type="email" name="email" id="email">
-                    <span class="text icon-text-modal">
-                        <svg class="icon-modal">
-                            <use href="./images/icons-2.svg#icon-email"></use>
-                        </svg>
-                    </span>
+                    <label class="sm-text name-field">Email 
+                        <div class="modal-input">
+                            <input class="sm-text text-field" type="email" name="email">
+                            <span class="icon-text-modal">
+                                <svg class="icon-modal" width="22" height="24">
+                                    <use href="./images/icons-2.svg#icon-email"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </label>
                 </div>
 
                 <!-- Comment -->
                 <div class="modal-field">
-                    <label class="text name-field" for="comment">Comment </label>
-                    <textarea class="text text-field modal-textarea" name="feedback" id="comment" rows="5" placeholder="Text input"></textarea>
+                    <label class="sm-text name-field">Comment
+                        <div class="modal-input">
+                            <textarea class="sm-text text-field modal-textarea" name="feedback" rows="5" placeholder="Text input"></textarea>
+                        </div> 
+                    </label>
                 </div>
 
                 <!-- checkbox -->
-                <div class="text modal-field">
-                    <label class="text name-field text-checkbox">
-                        <input class="text checkbox" type="checkbox" name="policy">
-                        <span class="checkbox-icon">
-                            <!-- <svg class="checkbox-icon">
-                                <use href="./images/icons-2.svg#icon-click-off"></use>
-                            </svg> -->
-                        </span>    
+                <div class="modal-field">
+                    <label class="sm-text name-field text-checkbox">
+                        <input class="sm-text checkbox" type="checkbox" name="policy">
+                        <span class="checkbox-icon"></span>
                         I accept the terms and conditions of the
                         <a href="" class="policy-text" target="_blank">
                             Privacy Policy
